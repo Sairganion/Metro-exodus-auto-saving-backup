@@ -30,7 +30,7 @@ mode con:cols=160
 @echo ###############################################################################################################################################################
 
 
-title Metro exodus auto saving v0.9.0
+title Metro exodus auto saving v0.9.3
 
 call :read_settings %~dp0Metroexodus_config_start_bat.ini || exit /b 1
 
