@@ -68,8 +68,8 @@ exit /b 1
 )
 
 echo Game running .....
-rem cd %GAME_FOLDER%
-rem start %EXE_FILE%
+cd %GAME_FOLDER%
+start %EXE_FILE%
 
 ) ELSE IF %GAME_START% == no ( 
 echo status: Without running Game
